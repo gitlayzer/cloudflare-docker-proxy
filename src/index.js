@@ -10,6 +10,7 @@ const routes = {
   "docker.cloudimages.asia": dockerHub,
   "quay.cloudimages.asia": "https://quay.io",
   "gcr.cloudimages.asia": "https://gcr.io",
+  "k8s-gcr.cloudimages.asia": "https://k8s.gcr.io",
   "k8s.cloudimages.asia": "https://registry.k8s.io",
   "ghcr.cloudimages.asia": "https://ghcr.io",
   // staging
