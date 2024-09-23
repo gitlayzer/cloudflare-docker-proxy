@@ -22,7 +22,7 @@ const routes = {
   "k8s-gcr.jockerhub.us.kg": "https://k8s.gcr.io",
   "k8s.jockerhub.us.kg": "https://registry.k8s.io",
   "ghcr.jockerhub.us.kg": "https://ghcr.io",
-  "docker-staging.jockerhub.us.kg": dockerHub,
+  "docker-staging.jockerhub.us.kg": dockerHub
 };
 
 function routeByHosts(host) {
