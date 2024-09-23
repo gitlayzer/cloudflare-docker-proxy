@@ -15,6 +15,14 @@ const routes = {
   "ghcr.cloudimages.asia": "https://ghcr.io",
   // staging
   "docker-staging.cloudimages.asia": dockerHub,
+
+  "docker.jockerhub.us.kg": dockerHub,
+  "quay.jockerhub.us.kg": "https://quay.io",
+  "gcr.jockerhub.us.kg": "https://gcr.io",
+  "k8s-gcr.jockerhub.us.kg": "https://k8s.gcr.io",
+  "k8s.jockerhub.us.kg": "https://registry.k8s.io",
+  "ghcr.jockerhub.us.kg": "https://ghcr.io",
+  "docker-staging.jockerhub.us.kg": dockerHub,
 };
 
 function routeByHosts(host) {
