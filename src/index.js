@@ -9,6 +9,7 @@ const DOMAIN = "cloudimages.asia"
 
 const routes = {
   // production
+  ["jockerhub.us.kg"]: dockerHub,
   ["docker." + DOMAIN]: dockerHub,
   ["quay." + DOMAIN]: "https://quay.io",
   ["gcr." + DOMAIN]: "https://gcr.io",
@@ -17,7 +18,7 @@ const routes = {
   ["ghcr." + DOMAIN]: "https://ghcr.io",
   ["cloudsmith." + DOMAIN]: "https://docker.cloudsmith.io",
   ["ecr." + DOMAIN]: "https://public.ecr.aws",
-
+  
   // staging
   ["docker-staging." + DOMAIN]: dockerHub,
 };
