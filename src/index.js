@@ -9,6 +9,7 @@ const DOMAIN = "cloudimages.asia"
 
 const routes = {
   // production
+  ["registry.pixiuio.com"]: dockerHub,
   ["jockerhub.us.kg"]: dockerHub,
   ["docker." + DOMAIN]: dockerHub,
   ["quay." + DOMAIN]: "https://quay.io",
